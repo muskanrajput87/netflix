@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="./style2.css" />
+  </head>
+  <body>
+    <!--------------nav-------------->
+    <div class="main1">
+      <nav>
+        <span><img width="100px" src="logo.svg" /></span>
+      </nav>
+      <div class="box"></div>
+      <div class="SignIn">
+        <h1>Sign In</h1>
+        <form class="form">
+          <input type="email" placeholder="Email" /><br /><br />
+          <input type="Password" placeholder="Password" />
+        </form>
+        <button class="btn btn-red-sm"><a href="sign.html">Sign In</a></button>
+        <p id="p1">OR</p>
+        <form class="button">
+          <input type="button" value="Use a sign-in code" /><br /><br />
+        </form>
+        <p id="p2">Forgot password?</p>
+        <form class="checkbox">
+          <input type="checkbox" value="Remember me" /><i> Remember me</i>
+        </form>
+        <p id="p3">New to Netflix? <a href="">Sign up now.</a></p>
+        <p id="p4">
+          This page is protected by Google reCAPTCHA to ensure you're not a bot.
+          <a href="">Learn more.</a>
+        </p>
+      </div>
+    </div>
+    <!------------footer------------>
+    <footer>
+      <div class="questions">Questions? Call 000-800-919-1694</div>
+      <div class="footer">
+        <div class="footer-item">
+          <a href="faq">FAQ</a>
+          <a href="faq">Terms of Use</a>
+          <a href="faq">Cookie Preferences</a>
+        </div>
+        <div class="footer-item">
+          <a href="faq">Help Centre</a>
+          <a href="faq">Privacy</a>
+          <a href="faq">Corporate</a>
+        </div>
+      </div>
+      <div>
+        <select
+          name="LanguageSelect"
+          class="selectLanguage"
+          data-uia="language-picker-header"
+        >
+          <option lang="en" label="English" value="en-IN" selected="">
+            English
+          </option>
+          <option lang="hi" label="हिन्दी" value="hi-IN">हिन्दी</option>
+        </select>
+      </div>
+    </footer>
+  </body>
+</html>
